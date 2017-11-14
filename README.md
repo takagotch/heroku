@@ -10,3 +10,8 @@ heroku keys:add
 heroku create
 git pash heroku master
 heroku rename Myapps
+
+#~/app/.
+heroku domain.add www.takgotch.com
+#domain
+www CNAME herokuDNS
