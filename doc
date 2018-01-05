@@ -8,3 +8,29 @@ heroku open
 heroku run rake db:migrate
 curl http://takagotch.com.herokuapp.com
 
+#lists cmd
+heroku login
+heroku login
+heroku open
+heroku log
+heroku log -t
+gem 'rails _12factor'
+
+heroku ps
+heroku pg:psql
+heroku run "ls" --app puginemonn
+heroku run rails c
+heroku run bundle exec rake db:migrate
+heroku config
+heroku config:set PASSWORD= hogepiyopassword
+heroku config:add TZ=Asia/Tokyo
+heroku domain
+heroku domain --app pugiemonn-com
+heroku addons
+heorku list
+
+heroku login
+heroku apps
+heroku run bash
+heroku config
+heroku open
