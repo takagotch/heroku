@@ -1,0 +1,10 @@
+#heroku-toolbelt
+
+heroku login
+heroku create myapp
+git push heroku master
+heroku open
+
+heroku run rake db:migrate
+curl http://takagotch.com.herokuapp.com
+

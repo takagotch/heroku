@@ -1,6 +1,6 @@
-#herokusetup
+- herokusetup
 
-#herokutoolbelt & cmd !gitbash
+- herokutoolbelt & cmd !gitbash
 heroku verion
 heroku login
   email
@@ -11,7 +11,7 @@ heroku create
 git pash heroku master
 heroku rename Myapps
 
-#~/app/.
+- ~/app/.
 heroku domain.add www.takgotch.com
-#domain
+- domain
 www CNAME herokuDNS
