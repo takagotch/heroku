@@ -1,0 +1,10 @@
+//process.setgid, process.setuid
+//Port NO 80
+//Port ENV['xxx']: 3000 #ex
+var server = require('http').createServer();
+var port = process.env.PORT || 3000;
+
+server.listen(port, function(){
+  console.log('Listening on ' + port)
+})
+
