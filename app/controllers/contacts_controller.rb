@@ -6,5 +6,13 @@ def index
   @stats = Rails.cache.stats.first.last
 end
 
+def update
+  expire_action :action => :show
+end
+
+def destroy
+  expire_action :action => :show
+end
+
 end
 
