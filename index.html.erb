@@ -1,0 +1,7 @@
+<% cache("top_products", :expires_in => 1.hour) do %>
+  <div id="topSellingProducts">
+    <% @recent_product = Product.order("units_sold DESC").limit(20) %>
+    <%= render :partial => "product", :collection => @products %>
+  </div>
+<% end %>
+
