@@ -1,6 +1,9 @@
+## Heroku
+https://devcenter.heroku.com/articles/getting-started-with-ruby#introduction
+
 https://github.com/heroku
 
-https://devcenter.heroku.com/articles/getting-started-with-ruby#introduction
+
 ---
 - herokusetup
 
@@ -19,3 +22,7 @@ heroku rename Myapps
 heroku domain.add www.takgotch.com
 - domain
 www CNAME herokuDNS
+---
+
+
+
