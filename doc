@@ -34,3 +34,19 @@ heroku apps
 heroku run bash
 heroku config
 heroku open
+
+
+-------------------------------------------
+
+OverView/Openapp
+Settings/domain
+        /DeleteApp
+        
+OverView/Addtopipeline...
+Deploy/Github
+      /HerokuGit
+------------------------------------------
+
+
+
+
