@@ -1,4 +1,64 @@
+
+- herokusetup
+
+- herokutoolbelt & cmd !gitbash
+heroku verion
+heroku login
+  email
+  pass
+heroku keys:add
+  rsa.pub
+heroku create apptky1
+git push heroku master
+heroku rename Myapps
+
+- ~/app/.
+heroku domain.add www.takgotch.com
+- domain
+www CNAME herokuDNS
+
 #heroku-toolbelt
+
+----------------------------------------------
+heroku apps　をgitでcloneする。
+----------------------------------------------
+
+heroku apps
+
+
+------------------------------
+DEFAULT: Gitリポジトリがリモートにあって、Herokuアプリをこれから作る heroku login
+git clone git:github.com:takagotch/apptky1
+cd apptky1
+heroku create apptky1
+git push heroku master
+--------------
+other2: Gitリポジトリclone済で、Herokuアプリも作成済で、デプロイしたい場合 heroku login
+cd apptky1
+heroku git:remote -a apptky1 -r heroku
+git push heroku master
+----------------------------
+デプロイまでの流れ
+herokuのアカウント作成
+brewでHerokuCLIインストール
+$ heroku login
+$ heroku create <アプリの名前>
+requirements.txtに外部ライブラリを記載
+（デプロイ手順は作成したappのDeployページに書いてある）
+$ heroku git:clone -a <アプリの名前>
+$ cd <アプリの名前>
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+-------------
+
+
+heroku git:clone --app apptky
+heroku apps:info apptky2
+
+---
+
+
 
 heroku login
 heroku create myapp
